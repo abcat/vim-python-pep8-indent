@@ -31,6 +31,8 @@ setlocal indentkeys=!^F,o,O,<:>,0),0],0},=elif,=except
 setlocal tabstop=4
 setlocal softtabstop=4
 setlocal shiftwidth=4
+setlocal formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
+setlocal tw=78
 
 let s:maxoff = 50
 let s:block_rules = {
